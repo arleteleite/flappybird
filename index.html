@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird</title>
+    <link rel="shortcut icon" href="assets/images/passaro.png" type="image/png">
+    <link rel="stylesheet" href="assets/css/flappy.css">
+    
+</head>
+<body class="conteudo">
+    <h1>Flappy Bird</h1>
+    <main class="game">
+        <div id="place-game">
+            <div class="youlose hide">
+                <div class="boxlose">
+                    <img src="assets/images/you-lose-message.jpg" alt="">
+                    <label for="name">Pontos:</label>
+                    <input type="button" id="resu">
+                    <button id="restart">Reiniciar</button>
+                </div>
+                </div>
+            <div class="modal">
+                <div class="box">
+                    <img src="assets/images/dunas.jpg" alt="">
+                    <label for="name">Digite seu nome:</label>
+                    <input type="text" id="name" placeholder="DIGITE AQUI...">
+                    <button id="start">INICIAR</button>
+                </div>
+            </div>
+            <div id="painel">
+                <button id="stop">PAUSE</button>
+                <input type="hidden" id="control-all">
+            </div>
+        </div>
+      
+
+    </main>
+    
+
+    <script src="assets/js/flappy.js"></script>
+</body>
+</html>
